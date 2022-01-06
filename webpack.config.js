@@ -2,7 +2,7 @@
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack')
+// const webpack = require('webpack')
 
 const isProduction = process.env.NODE_ENV == 'production';
 
@@ -12,6 +12,7 @@ const config = {
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'main.js',
+        clean: true,
     },
     devServer: {
         open: true,
