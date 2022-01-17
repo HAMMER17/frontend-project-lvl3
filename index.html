@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>Hexlet Frontend Project</title>
+    <title>My Frontend Project</title>
     <!-- <link rel="stylesheet" href="src/style.css"> -->
     <script defer="defer" src="main.js"></script>
 </head>
@@ -39,17 +39,21 @@
                                     <input id="url-input" autofocus required name="url" aria-label="url"
                                         class="form-control w-100" placeholder="ссылка RSS" autocomplete="off">
                                     <label for="url-input">Ссылка RSS</label>
+
                                 </div>
                             </div>
+
                             <div class="col-auto">
-                                <button type="submit" aria-label="add"
+                                <button id="button" type="submit" aria-label="add"
                                     class="h-100 btn btn-lg btn-primary px-sm-5">Добавить</button>
                             </div>
                         </div>
                     </form>
                     <p class="mt-2 mb-0 text-muted">Пример: https://ru.hexlet.io/lessons.rss</p>
+                    <div id="output"></div>
                     <p class="feedback m-0 position-absolute small text-danger"></p>
                 </div>
+
             </div>
         </section>
         <section class="container-fluid container-xxl p-5">

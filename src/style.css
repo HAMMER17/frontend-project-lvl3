@@ -1,3 +1,9 @@
 body {
 background-color: burlywood;
 }
+.err{
+    border: 2px solid red;
+}
+#output{
+    color: red;
+}
