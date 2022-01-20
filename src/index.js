@@ -8,11 +8,12 @@ import './yup.js';
 
 const input = document.querySelector('#url-input');
 const button = document.querySelector('#button');
-// const output = document.querySelector('#output')
+const out = document.querySelector('.out')
 
 button.addEventListener('click', function (event) {
     event.preventDefault();
     if (input.value === '') {
         input.classList.add('err')
+        out.innerHTML = 'ошибка ввода данных'
     }
 })

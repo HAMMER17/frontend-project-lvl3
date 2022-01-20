@@ -4,6 +4,6 @@ background-color: burlywood;
 .err{
     border: 2px solid red;
 }
-#output{
+.out{
     color: red;
 }
