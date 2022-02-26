@@ -41,6 +41,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@popperjs/core": "^2.11.2",
+    "axios": "^0.26.0",
     "bootstrap": "^5.1.3",
     "i18next": "^21.6.6",
     "on-change": "^4.0.0",
