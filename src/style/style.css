@@ -1,0 +1,51 @@
+:root {
+    --black: #212529;
+    --White: #fff;
+    --grey: #6c757d;
+  }
+
+  .rss-section {
+      background: var(--black);
+  }
+
+  .content-text {
+      color: var(--White);
+  }
+
+  .example {
+      color: var(--grey);
+  }
+
+  .input {
+    flex-grow: 1;
+    width: 500%;
+  }
+  
+  .button {
+      margin-left: 10px;
+      flex-grow: 2;
+  }
+
+  .input > input {
+      height: 50px;
+  }
+
+  .button > button {
+      height: 50px;
+  }
+
+  .rss-form {
+      display: flex;
+      flex-direction: row;
+      width: 50vw;
+  }
+
+  .example {
+      margin-top: 10px;
+  }
+
+  .container-fluid{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
